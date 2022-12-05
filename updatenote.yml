@@ -1,0 +1,22 @@
+name: UpdateNote
+request:
+  - name: id
+    type: UUID
+  - name: title
+    type: String
+  - name:  body
+    type: String
+response:
+  - name: id
+    type: UUID
+  - name: title
+    type: String
+  - name: body
+    type: String
+  - name: createdAt
+    type: TODAY
+  - name: lastModifiedAt
+    type: NOW
+error:
+  - code: NOTE_TOO_LARGE
+  - code: NOTE_NOT_FOUND

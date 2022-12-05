@@ -1,0 +1,5 @@
+name: DeleteNote
+request:
+  - name: id
+    type: UUID
+error: NOTE_NOT_FOUND

@@ -1,0 +1,17 @@
+name: SignUp
+comment: SignUp the user
+request:
+    - name: emailId
+      type: emailId
+      comment: Unique emailId
+
+    - name: password
+      type: String
+      validations:
+          minValue: 12
+      comment: Password should be of at least 12 bytes long
+errors:
+    - code: EMAIL_ID_ALREADY_EXISTS
+    - code: INSECURE_PASSWORD
+
+

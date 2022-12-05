@@ -1,0 +1,34 @@
+name: notes
+type: List
+elementType: Notes
+response:
+  - name: id
+    type: UUID
+  - name: title
+    type: String
+  - name: body
+    type: String
+  - name: createdAt
+    type: TODAY
+  - name: lastModifiedAt
+    type: NOW
+  - name: id
+    type: UUID
+  - name: title
+    type: String
+  - name: body
+    type: String
+  - name: createdAt
+    type: TODAY
+  - name: lastModifiedAt
+    type: NOW
+  - name: id
+    type: UUID
+  - name: title
+    type: String
+  - name: body
+    type: String
+  - name: createdAt
+    type: TODAY
+  - name: lastModifiedAt
+    type: NOW

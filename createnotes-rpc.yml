@@ -1,0 +1,19 @@
+name: CreateNote
+request:
+  - name: id
+    type: UUID
+  - name: title
+    type: String
+  - name: body
+    type: String
+response:
+  - name: id
+    type: UUID
+  - name: title
+    type: String
+  - name: body
+    type: String
+  - name: createdAt
+    type: TODAY
+  - name: lastModifiedAt
+    type: NOW
